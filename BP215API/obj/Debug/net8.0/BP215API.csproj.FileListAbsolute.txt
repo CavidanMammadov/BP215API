@@ -292,3 +292,8 @@ C:\Users\ll novbe\Desktop\Bp215APi\BP215API\BP215API\bin\Debug\net8.0\libman.jso
 C:\Users\ll novbe\Desktop\Bp215APi\BP215API\BP215API\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\ll novbe\Desktop\Bp215APi\BP215API\BP215API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\ll novbe\Desktop\Bp215APi\BP215API\BP215API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\user\source\repos\BP215API\BP215API\bin\Debug\net8.0\libman.json
+C:\Users\user\source\repos\BP215API\BP215API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\user\source\repos\BP215API\BP215API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\user\source\repos\BP215API\BP215API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\user\source\repos\BP215API\BP215API\bin\Debug\net8.0\AutoMapper.dll

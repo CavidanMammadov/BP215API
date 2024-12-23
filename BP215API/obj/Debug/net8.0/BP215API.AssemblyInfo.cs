@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BP215API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06ce69bb4cf3f3c89b0681eccd01b8bfef963d76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9ac49501b10e0f49db98a742d3e5d0ba126270f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BP215API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BP215API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
