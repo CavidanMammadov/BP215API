@@ -17,8 +17,7 @@ namespace BP215API.Services.Implements
             await _context.Languages.AddAsync(_mapper.Map<Language>(dto));
             await _context.SaveChangesAsync();
         }
-
-        
+       
 
         public async Task<IEnumerable<LanguageGetDto>> GetAllAsync()
         {
@@ -32,17 +31,14 @@ namespace BP215API.Services.Implements
             data.Name = dto.Name;
             data.Icon = dto.Icon;
             await _context.SaveChangesAsync();
-           
         }
+
         public async Task DeleteAsync(string code)
         {
             var data = await _context.Languages.FindAsync(code);
             _context.Languages.Remove(data);
             await _context.SaveChangesAsync();
         }
-
-
-
 
     }
 }
