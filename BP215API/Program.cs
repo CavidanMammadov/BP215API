@@ -27,7 +27,8 @@ namespace BP215API
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddScoped<ILanguageService, LanguageService>();
+            builder.Services.AddServices();
+            builder.Services.AddMemoryCache();
 
             var app = builder.Build();
 

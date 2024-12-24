@@ -38,7 +38,7 @@ namespace BP215API.Services.Implements
             var data = await _context.Languages.FindAsync(code);
             _context.Languages.Remove(data);
             await _context.SaveChangesAsync();
-        }
+        }   
 
     }
 }

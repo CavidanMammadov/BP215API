@@ -15,7 +15,7 @@ namespace BP215API.Controllers
           await _service.CreateAsync(dto);
             return Ok();
         } 
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<IActionResult> CreateMany(List<WordCreateDto> dto)
         {foreach (var item in dto)
             {
@@ -23,5 +23,7 @@ namespace BP215API.Controllers
             }
             return Ok();
         }
+
+
     }
 }

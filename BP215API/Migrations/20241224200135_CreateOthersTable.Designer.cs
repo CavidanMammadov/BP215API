@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BP215API.Migrations
 {
     [DbContext(typeof(BP215APIDbContext))]
-    [Migration("20241224080109_CreatedOthersTables")]
-    partial class CreatedOthersTables
+    [Migration("20241224200135_CreateOthersTable")]
+    partial class CreateOthersTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,7 +44,7 @@ namespace BP215API.Migrations
 
                     b.HasIndex("WordId");
 
-                    b.ToTable("BannedWord");
+                    b.ToTable("BannedWords");
                 });
 
             modelBuilder.Entity("BP215API.Entities.Game", b =>
@@ -82,7 +82,7 @@ namespace BP215API.Migrations
 
                     b.HasIndex("LanguageCode");
 
-                    b.ToTable("Game");
+                    b.ToTable("Games");
                 });
 
             modelBuilder.Entity("BP215API.Entities.Language", b =>
@@ -139,7 +139,7 @@ namespace BP215API.Migrations
 
                     b.HasIndex("LanguageCode");
 
-                    b.ToTable("Word");
+                    b.ToTable("Words");
                 });
 
             modelBuilder.Entity("BP215API.Entities.BannedWord", b =>
