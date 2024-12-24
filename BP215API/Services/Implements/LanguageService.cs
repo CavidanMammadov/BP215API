@@ -18,20 +18,31 @@ namespace BP215API.Services.Implements
             await _context.SaveChangesAsync();
         }
 
+        
+
         public async Task<IEnumerable<LanguageGetDto>> GetAllAsync()
         {
             var datas =  await _context.Languages.ToListAsync();
            return _mapper.Map<IEnumerable<LanguageGetDto>>(datas);
         }
 
-        Task<IEnumerable<LanguageCreateDto>> ILanguageService.GetAllAsync()
+        public async Task UpdateAsync(LanguageUpdateDto dto, string code)
         {
-            throw new NotImplementedException();
+            var data = await _context.Languages.FindAsync( code);
+            data.Name = dto.Name;
+            data.Icon = dto.Icon;
+            await _context.SaveChangesAsync();
+           
+        }
+        public async Task DeleteAsync(string code)
+        {
+            var data = await _context.Languages.FindAsync(code);
+            _context.Languages.Remove(data);
+            await _context.SaveChangesAsync();
         }
 
-        //Task<IEnumerable<LanguageCreateDto>> ILanguageService.GetAllAsync()
-        //{
-        //    throw new NotImplementedException();
-        //}
+
+
+
     }
 }

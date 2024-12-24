@@ -18,7 +18,7 @@ namespace BP215API.Validators.Languages
             RuleFor(x => x.Name)
                 .MaximumLength(32)
                 .MinimumLength(3);
-            RuleFor(x => x.IconUrl)
+            RuleFor(x => x.Icon)
                 .MaximumLength(128)
                 .Matches("^http(s)?://([\\w-]+.)+[\\w-]+(/[\\w- ./?%&=])?$")
                 .WithMessage("Url link olmalidir");

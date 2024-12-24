@@ -9,7 +9,7 @@ namespace BP215API.Profiles
         public LanguageProfile()
         {
             CreateMap<LanguageCreateDto, Language>()
-                .ForMember(l => l.Icon, lcd => lcd.MapFrom(x => x.IconUrl));
+                .ForMember(l => l.Icon, lcd => lcd.MapFrom(x => x.Icon));
             CreateMap<Language, LanguageCreateDto>();
         }
     }

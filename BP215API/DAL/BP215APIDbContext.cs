@@ -25,10 +25,29 @@ namespace BP215API.DAL
                 b.Property(x => x.Icon).HasMaxLength(128);
                 b.HasData(new Language
                 {
-                    Code ="az",
+                    Code = "az",
                     Name = "Azərbaycan",
                     Icon = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/2560px-Flag_of_Azerbaijan.svg.png"
                 });
+            });
+            modelBuilder.Entity<Word>(w =>
+            {
+                w.Property(x => x.Text)
+                   .IsRequired()
+                   .HasMaxLength(32);
+                w.HasOne(x => x.Language)
+                    .WithMany(x => x.Words)
+                    .HasForeignKey(x => x.LanguageCode);
+                w.HasMany(x => x.BannedWords)
+                    .WithOne(x => x.Word)
+                    .HasForeignKey(x => x.WordId);
+
+            });
+            modelBuilder.Entity<Game>(w =>
+            {
+                w.HasOne(x => x.Language)
+                     .WithMany(x => x.Games)
+                     .HasForeignKey(x => x.LanguageCode);
             });
             base.OnModelCreating(modelBuilder);
         }

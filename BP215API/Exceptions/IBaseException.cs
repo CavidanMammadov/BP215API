@@ -2,7 +2,7 @@
 {
     public interface IBaseException
     {
-        int StatusCode { get; set; }
-        string ErrorMessage { get; set; }
+        int StatusCode { get;  }
+        string ErrorMessage { get; }
     }
 }
