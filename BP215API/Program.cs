@@ -38,6 +38,7 @@ namespace BP215API
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+            app.UseExceptionHandler();
 
             app.UseHttpsRedirection();
 

@@ -20,30 +20,9 @@ namespace BP215API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create( LanguageCreateDto dto)
         {
-            try
-            {
                 await _service.CreateAsync(dto);
                 return Ok();
-            }
-            catch (Exception ex)
-            {
-                if(ex is IBaseException bEx)
-                {
-                    return StatusCode(bEx.StatusCode, new
-                    {
-                        StatusCode = bEx.StatusCode,
-                        Message =bEx.ErrorMessage
-                    });
-                }
-                else
-                {
-                    return BadRequest(new
-                    {
-                        Message = ex.Message
-                    });
-                }
-                
-            }
+          
          
         }
         [HttpPut]
