@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\services\\abstracts\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|solutionrelative:bp215api\\services\\abstracts\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\services\\implements\\wordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|solutionrelative:bp215api\\services\\implements\\wordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|solutionrelative:bp215api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\services\\implements\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|solutionrelative:bp215api\\services\\implements\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\services\\implements\\wordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|solutionrelative:bp215api\\services\\implements\\wordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\controllers\\wordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|solutionrelative:bp215api\\controllers\\wordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\services\\abstracts\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|solutionrelative:bp215api\\services\\abstracts\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|solutionrelative:bp215api\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\controllers\\languagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|solutionrelative:bp215api\\controllers\\languagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\services\\abstracts\\iwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|solutionrelative:bp215api\\services\\abstracts\\iwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CE256A3-A990-4922-B021-04EE75C4F046}|BP215API\\BP215API.csproj|c:\\users\\user\\source\\repos\\bp215api\\bp215api\\bp215api\\services\\implements\\languageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,62 +46,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LanguageService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Implements\\LanguageService.cs",
-              "RelativeDocumentMoniker": "BP215API\\Services\\Implements\\LanguageService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Implements\\LanguageService.cs",
-              "RelativeToolTip": "BP215API\\Services\\Implements\\LanguageService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAuwCgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T23:30:42.659Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WordService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Implements\\WordService.cs",
-              "RelativeDocumentMoniker": "BP215API\\Services\\Implements\\WordService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Implements\\WordService.cs",
-              "RelativeToolTip": "BP215API\\Services\\Implements\\WordService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T23:31:45.673Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IGameService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Abstracts\\IGameService.cs",
-              "RelativeDocumentMoniker": "BP215API\\Services\\Abstracts\\IGameService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Abstracts\\IGameService.cs",
-              "RelativeToolTip": "BP215API\\Services\\Abstracts\\IGameService.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAUwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T23:49:08.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameService.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Implements\\GameService.cs",
               "RelativeDocumentMoniker": "BP215API\\Services\\Implements\\GameService.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Implements\\GameService.cs",
               "RelativeToolTip": "BP215API\\Services\\Implements\\GameService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAmwAgAAABQAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAmwEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T23:48:57.954Z"
+              "WhenOpened": "2024-12-26T14:06:29.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "BP215API\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "BP215API\\Controllers\\GamesController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T13:59:18.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGameService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Abstracts\\IGameService.cs",
+              "RelativeDocumentMoniker": "BP215API\\Services\\Abstracts\\IGameService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Abstracts\\IGameService.cs",
+              "RelativeToolTip": "BP215API\\Services\\Abstracts\\IGameService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T14:08:40.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LanguageService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Implements\\LanguageService.cs",
+              "RelativeDocumentMoniker": "BP215API\\Services\\Implements\\LanguageService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Implements\\LanguageService.cs",
+              "RelativeToolTip": "BP215API\\Services\\Implements\\LanguageService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T14:30:15.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Program.cs",
+              "RelativeDocumentMoniker": "BP215API\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Program.cs",
+              "RelativeToolTip": "BP215API\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwDcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T13:57:49.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WordsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Controllers\\WordsController.cs",
+              "RelativeDocumentMoniker": "BP215API\\Controllers\\WordsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Controllers\\WordsController.cs",
+              "RelativeToolTip": "BP215API\\Controllers\\WordsController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwBkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T14:48:28.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IWordService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Abstracts\\IWordService.cs",
+              "RelativeDocumentMoniker": "BP215API\\Services\\Abstracts\\IWordService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Abstracts\\IWordService.cs",
+              "RelativeToolTip": "BP215API\\Services\\Abstracts\\IWordService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T14:48:21.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WordService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Implements\\WordService.cs",
+              "RelativeDocumentMoniker": "BP215API\\Services\\Implements\\WordService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Services\\Implements\\WordService.cs",
+              "RelativeToolTip": "BP215API\\Services\\Implements\\WordService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwCMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T14:48:39.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LanguagesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Controllers\\LanguagesController.cs",
+              "RelativeDocumentMoniker": "BP215API\\Controllers\\LanguagesController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\BP215API\\BP215API\\BP215API\\Controllers\\LanguagesController.cs",
+              "RelativeToolTip": "BP215API\\Controllers\\LanguagesController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAcwCEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T14:29:24.764Z"
             }
           ]
         }

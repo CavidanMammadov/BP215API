@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace BP215API.Configurations
 {
-    public class WordConfiguration : IEntityTypeConfiguration<Word>
+    public class WordConfiguration : IEntityTypeConfiguration<WordForGame>
     {
-        public void Configure(EntityTypeBuilder<Word> builder)
+        public void Configure(EntityTypeBuilder<WordForGame> builder)
         {
            builder.Property(x => x.Text)
                    .IsRequired()

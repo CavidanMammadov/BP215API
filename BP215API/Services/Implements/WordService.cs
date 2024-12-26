@@ -13,7 +13,7 @@ namespace BP215API.Services.Implements
        
         public async Task<int> CreateAsync(WordCreateDto dto)
         {
-            Word word = new Word
+            WordForGame word = new WordForGame
             {
                 LanguageCode = dto.LanguageCode,
                Text= dto.Text

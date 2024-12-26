@@ -747,3 +747,5 @@ C:\Users\ll novbe\Desktop\BP215API - Köçür\BP215API\BP215API\BP215API\obj\Deb
 C:\Users\ll novbe\Desktop\BP215API - Köçür\BP215API\BP215API\BP215API\obj\Debug\net8.0\BP215API.pdb
 C:\Users\ll novbe\Desktop\BP215API - Köçür\BP215API\BP215API\BP215API\obj\Debug\net8.0\BP215API.genruntimeconfig.cache
 C:\Users\ll novbe\Desktop\BP215API - Köçür\BP215API\BP215API\BP215API\obj\Debug\net8.0\ref\BP215API.dll
+C:\Users\user\source\repos\BP215API\BP215API\BP215API\bin\Debug\net8.0\Google.Apis.Core.dll
+C:\Users\user\source\repos\BP215API\BP215API\BP215API\bin\Debug\net8.0\Newtonsoft.Json.dll

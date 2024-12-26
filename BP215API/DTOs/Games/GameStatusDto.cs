@@ -1,4 +1,5 @@
-﻿using BP215API.Entities;
+﻿using BP215API.DTOs.Words;
+using BP215API.Entities;
 
 namespace BP215API.DTOs.Games
 {
@@ -7,7 +8,8 @@ namespace BP215API.DTOs.Games
         public byte Succes { get; set; }
         public byte Fail { get; set; }
         public byte Skip   { get; set; }
-        public Stack<Word> Words { get; set; }
-        public int[] UsedWordIds { get; set; }
+        public Stack<WordForGameDto> Words { get; set; }
+        public IEnumerable<int> UsedWordIds { get; set; }
+        public int MaxSkipCount { get; set; }
     }
 }

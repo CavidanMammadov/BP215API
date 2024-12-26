@@ -26,13 +26,15 @@ namespace BP215API.Controllers
          
         }
         [HttpPut]
-        public IActionResult Update()
+        public async Task<IActionResult> Update( string code , LanguageUpdateDto dto)
         {
+            await _service.UpdateAsync(dto , code);
             return Ok();
         }
         [HttpDelete("{code}")]
-        public IActionResult Delete(string code)
+        public async Task<IActionResult> Delete(string code)
         {
+            await _service.DeleteAsync(code); 
             return Ok();
         }
     }

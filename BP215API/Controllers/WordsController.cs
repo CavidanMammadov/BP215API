@@ -23,7 +23,18 @@ namespace BP215API.Controllers
             }
             return Ok();
         }
-
+        [HttpPut("[action]")]
+        public async Task<IActionResult> Update(WordUpdateDto dto ,  int id)
+        {
+            await _service.UpdateAsync(dto, id);
+            return Ok();
+        }
+        [HttpDelete("[action]")]
+        public async Task<IActionResult> Delete(int id )
+        {
+            await _service.DeleteAsync(id);
+            return Ok();
+        }
 
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace BP215API.Entities
 {
-    public class Word
+    public class WordForGame
     {
         public int Id { get; set; }
         public string Text { get; set; }
